@@ -65,14 +65,36 @@ input{
 }
 #qt{
     background-color: crimson;
-    border-radius: 11px;
-}
-#poster1{
-    
     border-radius: 10px;
+    padding: 5px 5px;
+}
+ 
+
+.rounded-image
+{
+   outline: 2px solid #000;
+   outline-offset: -2px;
+   border-radius: 20px;
+   transition: transform 0.5s ease;
+
+}
+.rounded-image:hover
+{
+    transform:scale(1.2)
 }
 .class{
     border-radius: 12px;
     background-color: black;
     padding: 15px;
+}
+.image-grid
+{
+display: flexbox;
+
+}
+.image-div
+{
+    background-image: url("rivermountain.jpg");
+    background-size: cover;
+    background-position: center;
 }
