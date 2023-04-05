@@ -1,0 +1,14 @@
+var img= document.getElementById("Django");
+img.addEventListener('click',function() {window.location.href="https://www.fmovies.fo/watch/django-unchained";})
+const img1= document.getElementById("pulp");
+img1.addEventListener('click',function() {window.location.href="https://www.fmovies.fo/watch/pulp-fiction";})
+const img2= document.getElementById("kb1");
+img2.addEventListener('click',function() {window.location.href="https://www.fmovies.fo/watch/kill-bill-vol-1";})
+const img3= document.getElementById("kb2");
+img3.addEventListener('click',function() {window.location.href="https://www.fmovies.fo/watch/kill-bill-vol-2";})
+const img4= document.getElementById("rd");
+img4.addEventListener('click',function() {window.location.href="https://www.fmovies.fo/watch/reservoir-dogs";})
+const img5= document.getElementById("jb");
+img5.addEventListener('click',function() {window.location.href="https://www.fmovies.fo/watch/jackie-brown";})
+const img6= document.getElementById("ib");
+img6.addEventListener('click',function() {window.location.href="https://www.fmovies.fo/watch/inglourious-basterds";})
